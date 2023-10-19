@@ -28,8 +28,11 @@ state of a patient must be died or alive - we adjust that as well
 # Your Question - Is dying independent of sex?
 
 
+# Method
 
+Based on the data we found in kRdata, we will try to find out if there's a difference between men and women. Is there any difference in how COVID kills men and women? Is COVID more harmful to men? Or is it more harmful to women? 
 
+This appears to be a category-category problem. Therefore, we will be deploying cat-cat helper files to run a test. 
 
 
 ## Graphical results - use ggplot commands to do this  
@@ -46,10 +49,13 @@ state of a patient must be died or alive - we adjust that as well
 ## Numerical results
 
 
+
+
 ## Inferential results 
 
 
 
+Based on the result of the chisq and fisher test, the result shows that if you are a male then you are twice as likely to die from covid than a women.
 
 ## Conclusions
 
