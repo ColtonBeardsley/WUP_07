@@ -82,5 +82,7 @@ fisher.test(table2)
 ```
 
 
+The results of the chrisquare and fisher test show that men are twice as likely to die from COVID than women.
+
 ## Conclusions
 
