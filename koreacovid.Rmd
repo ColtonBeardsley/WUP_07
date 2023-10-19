@@ -62,7 +62,11 @@ When looking at the second graph, the results show that of the whole group of pe
   
 ## Numerical results
 
-
+```{r}
+table2 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table2)
+colPerc(table2)
+```
 
 
 ## Inferential results 
